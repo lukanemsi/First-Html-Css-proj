@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav,header h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav {
+    width: 30%;
+    position: absolute;
+    right:  0;
+}
+
+nav * {
+    padding-left: 10px;
+}
+.services-container p, .services-list {
+    display: inline-block;
+}
+
+.services-container p {
+    width: 10%;
+    vertical-align: top;
+}
+
+.services-list {
+    width: 87%;
+}   
+
+.intro-container section, .intro-container img {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+
+.services-list p{
+    display: none;
+}
+.services-list h2:active + p{
+   display: block;
+}
+
+.services-list div::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey; /* You can customize the underline style here */
+    margin-top: 5px;
+}
+
+ .left, .right{
+    display: inline-block;
+}
+
+.left
+{
+    width: 10%;
+    vertical-align: top;
+
+}
+ .right{
+    width: 87%
+}
+
+.phone-tuples div
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.phone-tuples div::after
+{
+    content: "Daily product: increasing your prodactivity";
+}
+
+.logo-white::before {
+    content: url('./img/logo-white.png'); 
+}
+
+.logo-black::before {
+    content: url('./img/logo-black.png'); 
+}
+
+.additional-information, .additional-links{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.additional-links div{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+footer footer p, .company-networks {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.company-networks  a{
+    float: right;
+}
+
+
+.services-container {
+    background-color: black;
+    color: white;
+}
+
+footer, .outtro{
+    background-color: black;
+    color: white;
+}
+
+button{
+    border-radius: 10%;
+    text-align : center;
+    border: none;
+    padding: 3px;
+}
+.button-white{
+    background-color: white;
+    color: black;
+}
+.button-black{
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+main div{
+    margin-top: 20px;
+}
+
+.outtro{
+    margin: 0;
+}
+
+.additional-information{
+    text-align: center;
+}
+
+footer{
+    padding-top: 100px;
+}
+
+h1::before{
+    content: "";
+    width: 15%;
+    display: inline-block; /* Make the generated content a block-level element */
+    border-top: 2px solid #000; /* Customize the border as needed */
+    margin-bottom: 10px; /
+}
+h1{
+    display: inline-block;
+}
+h1{
+    padding: 10px;
+}
